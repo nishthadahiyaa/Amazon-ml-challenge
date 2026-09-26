@@ -1,8 +1,8 @@
 # ML Challenge 2026: Business Entity Resolution Solution Template
 
-**Team Name:** [To be filled by team]  
-**Team Members:** [To be filled by team]  
-**Submission Date:** [To be filled at submission]
+**Team Name:** Outliers   
+**Team Members:** Nishtha, Mahesh Rathi, Nikita Kumari, Nikhil Yadav  
+**Submission Date:** 26 September 2026
 
 ---
 
