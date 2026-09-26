@@ -1,0 +1,52 @@
+/Users/badmos/Desktop/AMAZON ML CHALLENGE/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/badmos/Desktop/AMAZON ML CHALLENGE/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/badmos/Desktop/AMAZON ML CHALLENGE/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+{
+  "model": "HistGradientBoostingClassifier",
+  "config": {
+    "seed": 2026,
+    "top_k": 80,
+    "max_block": 200,
+    "sample_size": 4000,
+    "version": 1
+  },
+  "threshold": 0.51,
+  "training_pairs": 149551,
+  "training_positives": 6745,
+  "split_sizes": {
+    "train": 2423,
+    "tune": 782,
+    "holdout": 795
+  },
+  "tune": {
+    "entities": 782,
+    "macro_f05": 0.8601375110747328,
+    "precision": 0.9606299212598425,
+    "recall": 0.7536337209302325,
+    "singleton_accuracy": 0.8717948717948718,
+    "by_country": {
+      "US": 0.9200276550030221,
+      "India": 0.7633918939598038
+    },
+    "blocking_recall": 0.7921511627906976,
+    "candidate_pairs": 47524
+  },
+  "holdout": {
+    "entities": 795,
+    "macro_f05": 0.8400378073805607,
+    "precision": 0.9512548262548263,
+    "recall": 0.7357222844344905,
+    "singleton_accuracy": 0.9,
+    "by_country": {
+      "US": 0.9104306427681359,
+      "India": 0.7371727352352496
+    },
+    "blocking_recall": 0.782381485628966,
+    "candidate_pairs": 49074
+  }
+}

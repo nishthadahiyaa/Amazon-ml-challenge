@@ -1,0 +1,44 @@
+{
+  "model": "LGBMClassifier",
+  "config": {
+    "seed": 2026,
+    "top_k": 120,
+    "max_block": 200,
+    "sample_size": 4000,
+    "version": 2
+  },
+  "threshold": 0.6000000000000001,
+  "training_pairs": 266695,
+  "training_positives": 7302,
+  "split_sizes": {
+    "train": 2423,
+    "tune": 782,
+    "holdout": 795
+  },
+  "tune": {
+    "entities": 782,
+    "macro_f05": 0.8889648298138491,
+    "precision": 0.9739284136102518,
+    "recall": 0.8008720930232558,
+    "singleton_accuracy": 0.9487179487179487,
+    "by_country": {
+      "US": 0.9503361692448555,
+      "India": 0.7898265122714535
+    },
+    "blocking_recall": 0.8611918604651163,
+    "candidate_pairs": 85526
+  },
+  "holdout": {
+    "entities": 795,
+    "macro_f05": 0.8687980408697754,
+    "precision": 0.9672206832871653,
+    "recall": 0.7820082120194102,
+    "singleton_accuracy": 0.88,
+    "by_country": {
+      "US": 0.9297109690384958,
+      "India": 0.7797859600783327
+    },
+    "blocking_recall": 0.8514371033967898,
+    "candidate_pairs": 87544
+  }
+}

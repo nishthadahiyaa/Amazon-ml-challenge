@@ -1,0 +1,61 @@
+..../Users/badmos/Desktop/AMAZON ML CHALLENGE/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/badmos/Desktop/AMAZON ML CHALLENGE/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/badmos/Desktop/AMAZON ML CHALLENGE/.venv/lib/python3.14/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+{
+  "model": "HistGradientBoostingClassifier",
+  "config": {
+    "top_k": 5,
+    "max_block": 200,
+    "seed": 2026,
+    "sample_size": 200,
+    "version": 1
+  },
+  "threshold": 0.8700000000000001,
+  "training_pairs": 220,
+  "training_positives": 96,
+  "split_sizes": {
+    "train": 110,
+    "tune": 42,
+    "holdout": 48
+  },
+  "tune": {
+    "entities": 42,
+    "macro_f05": 0.9285714285714286,
+    "precision": 0.9285714285714286,
+    "recall": 1.0,
+    "singleton_accuracy": 0.0,
+    "by_country": {
+      "US": 0.9285714285714286
+    },
+    "blocking_recall": 1.0,
+    "candidate_pairs": 84
+  },
+  "holdout": {
+    "entities": 48,
+    "macro_f05": 0.9375,
+    "precision": 0.9375,
+    "recall": 1.0,
+    "singleton_accuracy": 0.0,
+    "by_country": {
+      "US": 0.9375
+    },
+    "blocking_recall": 1.0,
+    "candidate_pairs": 96
+  }
+}
+Indexed 5 references, 23 keys; dropped 0 broad keys
+Wrote 5 reference entities
+..
+----------------------------------------------------------------------
+Ran 6 tests in 0.081s
+
+OK
+  required S1 entities: 5
+  valid S2/S3 match IDs: 4
+  matching_results.tsv: 5 rows (1 empty, 4 non-empty).
+  candidate_pairs.tsv: 5 rows (1 empty, 4 non-empty).

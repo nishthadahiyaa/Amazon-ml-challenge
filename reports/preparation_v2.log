@@ -1,0 +1,11 @@
+Indexed 4,000 references, 70,416 keys; dropped 0 broad keys
+train_source2.tsv: scanned 1,000,000
+train_source2.tsv: scanned 2,000,000
+train_source2.tsv: scanned 3,000,000
+train_source2.tsv: scanned 4,000,000
+train_source2.tsv: scanned 5,000,000
+train_source3.tsv: scanned 1,000,000
+train_source3.tsv: scanned 2,000,000
+train_source3.tsv: scanned 3,000,000
+train_source3.tsv: scanned 4,000,000
+train_source3.tsv: scanned 5,000,000

@@ -1,0 +1,43 @@
+{
+  "v1": {
+    "entities": 795,
+    "macro_f05": 0.8329476821333357,
+    "precision": 0.9706336939721792,
+    "recall": 0.7032474804031354,
+    "singleton_accuracy": 0.88,
+    "by_country": {
+      "US": 0.8977444958450849,
+      "India": 0.7382600781954234
+    }
+  },
+  "v2": {
+    "entities": 795,
+    "macro_f05": 0.8642250225864662,
+    "precision": 0.9701421800947867,
+    "recall": 0.7640910787607316,
+    "singleton_accuracy": 0.92,
+    "by_country": {
+      "US": 0.9304076378076678,
+      "India": 0.7675123464737506
+    }
+  },
+  "feature_only": {
+    "entities": 795,
+    "macro_f05": 0.8400378073805607,
+    "precision": 0.9512548262548263,
+    "recall": 0.7357222844344905,
+    "singleton_accuracy": 0.9,
+    "by_country": {
+      "US": 0.9104306427681359,
+      "India": 0.7371727352352496
+    },
+    "blocking_recall": 0.782381485628966,
+    "candidate_pairs": 49074
+  },
+  "paired_macro_f05_gain": 0.0312773404531305,
+  "paired_bootstrap_95_interval": [
+    0.020551867702065255,
+    0.0427879426755263
+  ],
+  "caveat": "Reused development holdout; interval measures sampled-reference variability, not model-selection or country-shift uncertainty. Fresh validation is required before final claims."
+}

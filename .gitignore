@@ -1,0 +1,24 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Large generated ML artifacts
+artifacts/
+*.pkl
+*.joblib
+
+# Dataset - shared separately with collaborators
+student_resource/dataset/
+
+# Temporary and submission files
+*.tmp
+*_submission.zip
+
+# Jupyter
+.ipynb_checkpoints/
